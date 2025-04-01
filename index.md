@@ -23,24 +23,18 @@ I’m **Khushi Patel**, a **Computer Science graduate** transitioning into **Dat
 
 ## 🚀 Featured Projects
 
-### **1️⃣ Sports Car Prices Analysis 🚗💰**
-📌 **Dataset:** Kaggle - Sports Car Prices  
-📌 **Techniques:** Exploratory Data Analysis (EDA), Regression  
-📌 **Tools:** Pandas, Matplotlib, Seaborn, Scikit-learn  
-[🔗 View Project](https://github.com/your-username/sports-car-analysis)  
+### **Tiktok Sentiment Analysis**
+📌 A Python-based project where I scraped and preprocessed large datasets from TikTok to perform sentiment analysis on user content. Using classification algorithms, I extracted meaningful insights regarding user engagement and trends, which can be used to assess the impact of different content types on audience sentiment.
 
 ---
 
-### **2️⃣ Customer Churn Prediction 📉**
-📌 **Dataset:** Telecom Churn Data  
-📌 **Techniques:** Classification (Logistic Regression, Random Forest)  
-📌 **Tools:** Python, Scikit-learn, Tableau  
-[🔗 View Project](https://github.com/your-username/churn-prediction)  
+### **Electronic Enforcers**
+📌 A multiplayer military simulation game developed using Unity and C#. I implemented multiplayer functionality to allow up to 12 players to participate in real-time battles. Additionally, I optimized graphics performance, achieving a 60% improvement in terrain rendering by remodeling Gaia terrain. I also designed intuitive user interfaces to enhance player navigation in the game lobby.
 
 ---
 
-### **3️⃣ SQL Business Insights Dashboard 📊**
-📌 **Dataset:** Public Business Transactions  
+### **California Housing Prices**
+📌 **Dataset:** California Housing Prices  
 📌 **Tools:** PostgreSQL, MySQL, Tableau  
 
 <-- #### 📈 Interactive Dashboard: --!>
