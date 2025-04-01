@@ -37,7 +37,7 @@ I’m **Khushi Patel**, a **Computer Science graduate** transitioning into **Dat
 📌 **Dataset:** California Housing Prices  
 📌 **Tools:** PostgreSQL, MySQL, Tableau  
 
-<-- #### 📈 Interactive Dashboard: --!>
+#### 📈 Interactive Dashboard:
 <iframe src="https://public.tableau.com/views/YOUR-DASHBOARD" width="800" height="500"></iframe>  
 
 👉 **[See All My Projects](./projects.md)**  
