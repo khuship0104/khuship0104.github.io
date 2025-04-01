@@ -5,6 +5,7 @@ plugins:
 title: Khushi Patel - Portfolio
 description: A collection of my projects in software engineering and data analytics
 theme: jekyll-theme-minimal
+show_downloads: true
 
 # Nav links
 header_pages:
