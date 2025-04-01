@@ -14,8 +14,8 @@ I’m **Khushi Patel**, a **Computer Science graduate** transitioning into **Dat
 - **Data Visualization:** Tableau, Power BI, Matplotlib, Seaborn 
 
 ### 🌐 Connect with Me:
-- [LinkedIn]((https://www.linkedin.com/in/patel-khushi9/))
-- [GitHub](https://github.com/khuship0104))
+- [LinkedIn](https://www.linkedin.com/in/patel-khushi9/)
+- [GitHub](https://github.com/khuship0104)
 
 📄 **[Download My Resume](./assets/Khushi_Patel.pdf)** 
 
