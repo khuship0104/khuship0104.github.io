@@ -15,7 +15,7 @@ I’m **Khushi Patel**, a **Computer Science graduate** transitioning into **Dat
 
 ### 🌐 Connect with Me:
 - [LinkedIn]((https://www.linkedin.com/in/patel-khushi9/))
-- [GitHub](https://github.com/khuship0104)
+- [GitHub](https://github.com/khuship0104))
 
 📄 **[Download My Resume](./assets/Khushi_Patel_Resume.pdf)** 
 
