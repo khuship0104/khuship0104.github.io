@@ -3,9 +3,6 @@ layout: default
 title: Home
 ---
 
-<header class="hero">
-  <h1>Welcome to My Portfolio</h1>
-</header>
 
 <section id="about">
   <h2>📌 About Me</h2>
