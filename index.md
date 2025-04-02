@@ -5,11 +5,11 @@ title: Home
 
 <header class="hero">
   <h1>Welcome to My Portfolio</h1>
-  <p>I’m <strong>Khushi Patel</strong>, a <strong>Computer Science graduate</strong> transitioning into <strong>Data Analytics</strong>. I specialize in <strong>Python, SQL, Machine Learning, and Data Visualization</strong>.</p>
 </header>
 
 <section id="about">
   <h2>📌 About Me</h2>
+  <p>I’m <strong>Khushi Patel</strong>, a <strong>Computer Science graduate</strong> transitioning into <strong>Data Analytics</strong>. I specialize in <strong>Python, SQL, Machine Learning, and Data Visualization</strong>.</p>
   <p>I have a background in <strong>Computer Science</strong> and am passionate about extracting insights from data. My expertise includes building <strong>machine learning models, database management, and data visualization</strong> to drive meaningful decisions.</p>
 </section>
 
