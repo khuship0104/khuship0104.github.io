@@ -1,5 +1,3 @@
-# khuship0104.github.io
+# Khushi Patel Portfolio
 
 https://khuship0104.github.io/
-
-THis is the readme
