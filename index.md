@@ -52,13 +52,5 @@ title: Home
     <p>📌 A multiplayer military simulation game developed using Unity and C#. Implemented multiplayer functionality for up to 12 players, optimized terrain rendering by 60%, and designed intuitive user interfaces.</p>
   </div>
 
-  <div class="project">
-    <h3>California Housing Prices</h3>
-    <p>📌 <strong>Dataset:</strong> California Housing Prices<br>
-       📌 <strong>Tools:</strong> PostgreSQL, MySQL, Tableau</p>
-    <p>#### 📈 Interactive Dashboard:</p>
-    <iframe src="https://public.tableau.com/views/YOUR-DASHBOARD" width="800" height="500"></iframe>
-  </div>
-
   <p>👉 <a href="./projects.md">See All My Projects</a></p>
 </section>
