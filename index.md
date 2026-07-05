@@ -6,9 +6,7 @@ title: Home
 
 <section id="about">
   <h2>📌 About Me</h2>
-  <p>I’m <strong>Khushi Patel</strong>, a <strong>Computer Science graduate</strong> transitioning into <strong>Data Analytics</strong>. I specialize in <strong>Python, SQL, Machine Learning, and Data Visualization</strong>.</p>
-  <p>I have a background in <strong>Computer Science</strong> and am passionate about extracting insights from data. My expertise includes building <strong>machine learning models, database management, and data visualization</strong> to drive meaningful decisions.</p>
-</section>
+  <p>I'm a Data Analyst at Net Conversion and a Master's candidate in Data Analytics at the University of Central Florida (expected August 2026), building on a B.S. in Computer Science. I focus on turning messy data into decisions — from forecasting and risk-classification models at work, to survival models predicting wildfire evacuation risk, to LLM-powered agents that simulate strategic behavior. I like problems that sit at the intersection of statistics, machine learning, and communicating results to people who aren't data scientists.</p>
 
 <section id="skills">
   <h2>🛠️ Skills</h2>
@@ -31,6 +29,18 @@ title: Home
 
 <section id="projects">
   <h2>🚀 Featured Projects</h2>
+
+  <div class="project">
+    <h3>Wildfire Risk Survival Model</h3>
+    <p>📌 Built survival models (Random Survival Forest, Gradient Boosting Survival) to predict wildfire impacts on evacuation zones, producing probability estimates across multiple time horizons. Achieved a ~0.97 evaluation score with calibration validated via weighted Brier scores, ranking in the top 25% worldwide. Translated model outputs into risk-based interpretations to support preparedness and resource-allocation decisions.</p>
+    <p>Tools: Python, Scikit-Survival, Gradient Boosting</p>
+  </div>
+
+  <div class="project">
+    <h3>Bidding War Simulation</h3>
+    <p>📌 Designed three LLM-powered bidding agents using the OpenAI API, each driven by a distinct strategy defined through custom prompt engineering. Built an interactive UI so users can observe live agent bidding or compete against the agents directly.</p>
+    <p>Tools: OpenAI API, Python, Prompt Engineering</p>
+  </div>
 
   <div class="project">
     <h3>Tiktok Sentiment Analysis</h3>
