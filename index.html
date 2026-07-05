@@ -130,7 +130,7 @@
       <p class="eyebrow">Featured Projects</p>
       <div class="project-grid">
 
-        <article class="project-card">
+        <article class="project-card" data-project="wildfire" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="project-visual">
             <svg viewBox="0 0 200 120" aria-hidden="true">
               <g stroke="#DEDCD2"><line x1="20" y1="10" x2="20" y2="100"/><line x1="20" y1="100" x2="190" y2="100"/></g>
@@ -144,10 +144,11 @@
             <h3>Wildfire Risk Survival Model</h3>
             <p class="project-meta mono">WiDS Global Datathon · Apr 2026 · Top 25% worldwide</p>
             <p>Random Survival Forest and Gradient Boosting Survival models predicting wildfire impact on evacuation zones, with probability estimates across multiple time horizons. Scored ~0.97, calibrated via weighted Brier scores, and translated into risk-based guidance for preparedness planning.</p>
+            <span class="project-link project-link--hint">View details →</span>
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="bidding" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="project-visual">
             <svg viewBox="0 0 200 120" aria-hidden="true">
               <rect x="78" y="10" width="44" height="24" rx="4" fill="none" stroke="#1F6F78" stroke-width="1.5"/>
@@ -170,11 +171,14 @@
             <p class="project-meta mono">Independent Project · Second-price auction · Dec 2025</p>
             <p>A multi-agent second-price (Vickrey) auction simulator. Strategic bidder agents combine a best-response approximator with an LLM call — grounding each bid in an actual expected-utility calculation rather than letting the model guess — while heuristic agents bid a simple value fraction. Outputs are validated with Pydantic and aggregated across simulation runs.</p>
             <p class="mono result-stats">20-round sim → mean clearing price 0.50 · win share B1 10% / B2 55% / B3 35%</p>
-            <a class="project-link" href="https://github.com/khuship0104/auction_market" target="_blank" rel="noopener">View code on GitHub →</a>
+            <div class="card-links">
+              <a class="project-link" href="https://github.com/khuship0104/auction_market" target="_blank" rel="noopener">View code on GitHub →</a>
+              <span class="project-link project-link--hint">View details →</span>
+            </div>
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="tiktok" tabindex="0" role="button" aria-haspopup="dialog">
           <div class="project-visual">
             <svg viewBox="0 0 200 120" aria-hidden="true">
               <g stroke="#DEDCD2"><line x1="20" y1="10" x2="20" y2="100"/><line x1="20" y1="100" x2="190" y2="100"/></g>
@@ -190,12 +194,27 @@
             <h3>TikTok Sentiment Analysis</h3>
             <p class="project-meta mono">UCF Analytics &amp; Decision Control Lab · 2023</p>
             <p>A Python scraping and analysis pipeline collecting TikTok metadata, comments, and video data for sentiment research. Applied NLP techniques to classify comments and surface engagement trends, presented at the Student Scholar Symposium.</p>
+            <span class="project-link project-link--hint">View details →</span>
           </div>
         </article>
 
       </div>
     </div>
   </section>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-panel">
+      <button class="modal-close" id="modal-close" aria-label="Close dialog">&times;</button>
+      <span class="tag" id="modal-tag"></span>
+      <h3 id="modal-title"></h3>
+      <p class="project-meta mono" id="modal-meta"></p>
+      <p id="modal-description"></p>
+      <p class="mono result-stats" id="modal-stats" hidden></p>
+      <div class="modal-tech mono" id="modal-tech"></div>
+      <a class="btn btn-primary modal-link" id="modal-link" href="#" target="_blank" rel="noopener">View code on GitHub →</a>
+    </div>
+  </div>
 
   <!-- OTHER WORK -->
   <section id="other-work" class="section section--muted">
